@@ -1,3 +1,5 @@
+ErrorDocument 404 https://wolfgames.github.io/404.html
+
 RewriteEngine on
 
 # Remove .html (or htm) from visible URL (permanent redirect)
