@@ -4,10 +4,11 @@
     <title>WolfGames web - under construction</title>
   </head>
   <body>
+    <center><div class="updown">
     <center><big><p class="undc_txt">Under construction!</p></big></center>
     <br>
     <center><img src="https://wolfgames.github.io/images/icons/WolfGames.png" width="200" height="200"></center>
-
+    </div></center>
 
 
     <style>
@@ -17,9 +18,25 @@
 
       .undc_txt {
         color: blue;
-        font-size: medium;
+        font-size: large;
         transition: 2s;
       }
+
+      .updown {
+       animation: MoveUpDown 1s linear infinite;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        }     
+
+        @keyframes MoveUpDown {
+          0%, 100% {
+            bottom: 0;
+          }
+          50% {
+            bottom: 100px;
+          }
+          }         
       
     </style>
 
