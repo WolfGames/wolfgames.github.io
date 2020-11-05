@@ -1,1 +1,6 @@
-
+.menu_header {
+    background-color: rgb(43, 43, 43);
+    position: fixed;
+    padding-right: 500px;
+    padding-left: 500px;
+}
