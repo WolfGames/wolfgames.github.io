@@ -55,8 +55,19 @@
 
 
     <script>
+      const redirect = true
+
+      window.onload() = function(){
+        if (redirect == true){
+          window.location.href = "/home"
+        }
+      }
+
+      const link_enabled = false
       document.getElementById("hreflink").onclick = function(){
+        if (link_enabled == true){
         alert("There is no any other page ¯\\_(ツ)_/¯")
+        }
       }
     </script>
 
