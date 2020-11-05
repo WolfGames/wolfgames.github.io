@@ -20,6 +20,11 @@
 .home_link_header {
     text-decoration: none;
 }
+.home_link_header:hover {
+    text-decoration: none;
+    text-shadow: 0 0 3px #3b9aff, 0 0 20px  #3b9aff, 0 0 20px  #3b9aff, 0 0 20px  #3b9aff, 0 0 20px  #3b9aff, 0 0 20px  #3b9aff, 0 0 20px #3b9aff, 0 0 20px #3b9aff;
+    transition: 0.8s;
+}
 
 .header_buttons {
     background-color: rgba(44, 44, 44, 0.397);
