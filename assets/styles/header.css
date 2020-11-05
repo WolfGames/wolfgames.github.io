@@ -9,26 +9,28 @@
 }
 
 .wg_header_txt {
+    transition: 0.8;
     font-family: "Arial Black", Gadget, sans-serif;
     color: rgb(20, 82, 255);
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 50px;
     /*text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;*/
-    text-shadow: 0 0 3px #228DFF, 0 0 10px #228DFF, 0 0 10px #228DFF, 0 0 10px #228DFF, 0 0 10px #228DFF, 0 0 10px #228DFF, 0 0 10px #228DFF, 0 0 10px #228DFF;
+    text-shadow: 0 0 3px #225dff, 0 0 8px #225dff, 0 0 8px #225dff, 0 0 10px #225dff, 0 0 8px #225dff, 0 0 8px #225dff, 0 0 8px #225dff, 0 0 8px #225dff;
 }
 
 .home_link_header {
     text-decoration: none;
 }
-.home_link_header:hover {
+.wg_header_txt:hover {
     text-decoration: none;
-    text-shadow: 0 0 3px #3b9aff, 0 0 20px  #3b9aff, 0 0 20px  #3b9aff, 0 0 20px  #3b9aff, 0 0 20px  #3b9aff, 0 0 20px  #3b9aff, 0 0 20px #3b9aff, 0 0 20px #3b9aff;
+    text-shadow: 0 0 3px #1100ff, 0 0 12px  #1100ff, 0 0 12px  #1100ff, 0 0 12px  #1100ff, 0 0 12px  #1100ff, 0 0 12px  #1100ff, 0 0 12px #1100ff, 0 0 12px #1100ff;
     transition: 0.8s;
+    color: rgb(53, 141, 255);
 }
 
 .header_buttons {
-    background-color: rgba(44, 44, 44, 0.397);
+    background-color: rgba(0, 68, 255, 0.397);
     border-radius: 30px;
     border: 1px;
-    border-color: blue;
+    border-color: rgba(0, 0, 255, 0.185);
 }
