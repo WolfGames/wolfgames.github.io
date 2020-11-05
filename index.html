@@ -20,7 +20,7 @@
 
       <center><img src="https://wolfgames.github.io/assets/images/icons/WolfGames.png" width="200" height="200" id="wg_img"></center>
       <br>
-      <center><big><p class="undc_txt" id="txt">UNDER CONSTRUCTION</p></big></center>
+      <center><big><p class="undc_txt" id="txt" style="color: red;">The website is under maintenance</p></big></center>
       <br>
       <br>
       <br>
@@ -34,7 +34,7 @@
     
    </table>
   </center>
-  <a href="" id ="hreflink" style="font-size: xx-small; position: absolute; bottom: 8px; right: 16px; font-size: 18px;">Just take me to webpage</a>
+  <a href="" id ="hreflink" style="font-size: 2px; position: absolute; bottom: 8px; right: 16px; font-size: 18px;">Pass mainence</a>
 
     <style>
 
@@ -59,6 +59,7 @@
 
       window.onload = function(){
         if (redirect == true){
+          document.getElementById("txt").style.color = "red"
           document.getElementById("txt").innerHTML = "Please wait..."
           document.getElementById("hreflink").style.visibility = "none"
           console.log("Redirecting to home")

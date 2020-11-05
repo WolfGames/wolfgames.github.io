@@ -20,3 +20,10 @@
 .home_link_header {
     text-decoration: none;
 }
+
+.header_buttons {
+    background-color: rgba(44, 44, 44, 0.397);
+    border-radius: 30px;
+    border: 1px;
+    border-color: blue;
+}
