@@ -47,7 +47,9 @@
 
 
       .undc_txt {
-        color: blue;
+        /*color: blue; */
+        transition: opacity 1s; 
+        opacity: 1;
         font-size: xx-large;
         font-family: "Lucida Console", Monaco, monospace;
         font-weight: bold;
@@ -70,6 +72,7 @@
           document.getElementById("txt").innerHTML = "Please wait..."
           document.getElementById("hreflink").style.visibility = "none"
           console.log("Redirecting to home")
+          document.getElementsByClassName("undc_txt").style.opacity = 0.1;
           window.location.href = "https://wolfgames.github.io/home"
         }
       }
