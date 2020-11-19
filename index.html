@@ -27,7 +27,7 @@
 
       <center><img src="https://wolfgames.github.io/assets/images/icons/WolfGames.png" width="200" height="200" id="wg_img"></center>
       <br>
-      <center><big><p class="undc_txt" id="txt" style="color: red;">The website is under maintenance</p></big></center>
+      <center><big><p id="undc_txt_2" class="undc_txt" id="txt" style="color: red;">The website is under maintenance</p></big></center>
       <br>
       <br>
       <br>
@@ -72,7 +72,7 @@
           document.getElementById("txt").innerHTML = "Please wait..."
           document.getElementById("hreflink").style.visibility = "none"
           console.log("Redirecting to home")
-          document.getElementsByClassName("undc_txt").style.opacity = 0.1;
+          document.getElementById("undc_txt_2").style.opacity = 0.1;
           window.location.href = "https://wolfgames.github.io/home"
         }
       }
