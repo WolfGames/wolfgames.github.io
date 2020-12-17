@@ -1,91 +1,38 @@
-<!DOCTYPE HTML5>
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="SHORTCUT ICON" href="https://wolfgames.github.io/assets/images/icons/WolfGames.png" type="image/png"/>
-    <link rel="stylesheet" href="https://wolfgames.github.io/assets/styles/main.css">
-    <title>WolfGames web - under construction</title>
 
-    <meta property="og:title" content="WolfGames website" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://wolfgames.github.io" />
-    <meta property="og:image" content="https://wolfgames.github.io/assets/images/icons/WolfGames.png" />
-    <meta property="og:description" content="Website with WolfGames' games, programs and other cool stuff" />
-    <meta name="theme-color" content="#3300FF">
-    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>WolfGames</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
 
-  </head>
-  <body>
-    <!-- Template for under construction pages-->
-    <center><table>
-    <tr><td>
-      <br>
-      <br>
-      <center><marquee class="updown" behavior="alternate" direction="up" scrollamount="1" width="500" height="460">
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+<body>
+    <nav class="navbar navbar-light navbar-expand-sm text-left navigation-clean" style="background-color: rgb(73,113,255);">
+        <div class="container"><img class="float-left" src="https://wolfgames.github.io/assets/images/icons/WolfGames.png" height="50" width="50"><a class="navbar-brand text-left text-light d-block float-left" href="https://wolfgames.github.io" style="background-color: rgba(255,255,255,0);">WolfGames</a>
+            <button
+                data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link text-dark" data-bs-hover-animate="pulse" href="#">Store</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link text-dark" data-bs-hover-animate="pulse" href="#">About</a></li>
+                        <li class="nav-item tada animated infinite" role="presentation"><a class="nav-link text-warning" data-bs-hover-animate="pulse" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&amp;list=PLKVa0eMP2Ld6vGSt45qhwyXFC5qobN50b&amp;index=66&amp;t=0s">???</a></li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+    <div class="simple-slider"></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://wolfgames.github.io/scripts/main.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+</body>
 
-      <center><img src="https://wolfgames.github.io/assets/images/icons/WolfGames.png" width="200" height="200" id="wg_img"></center>
-      <br>
-      <center><big><p id="undc_txt_2" class="undc_txt" id="txt" style="color: red;">The website is under maintenance</p></big></center>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-    </marqueee></center>
-    </td></tr>
-    <br>
-   
-
-    
-   </table>
-  </center>
-  <a href="" id ="hreflink" style="font-size: 2px; position: absolute; bottom: 8px; right: 16px; font-size: 18px;">Pass mainence</a>
-
-    <style>
-
-
-      .undc_txt {
-        /*color: blue; */
-        transition: opacity 1s; 
-        opacity: 1;
-        font-size: xx-large;
-        font-family: "Lucida Console", Monaco, monospace;
-        font-weight: bold;
-      }
-
-      .updown {
-          text-align: center;
-        }     
-   
-      
-    </style>
-
-
-    <script>
-      const redirect = true
-
-      window.onload = function(){
-        if (redirect == true){
-          document.getElementById("txt").style.color = "white"
-          document.getElementById("txt").innerHTML = "Please wait..."
-          document.getElementById("hreflink").style.visibility = "none"
-          console.log("Redirecting to home")
-          document.getElementById("undc_txt_2").style.opacity = 0.1;
-          window.location.href = "https://wolfgames.github.io/home"
-        }
-      }
-
-      const link_enabled = false
-      document.getElementById("hreflink").onclick = function(){
-        if (link_enabled == true){
-        alert("There is no any other page available ¯\\_(ツ)_/¯")
-        }
-      }
-    </script>
-
-  </body>
 </html>
