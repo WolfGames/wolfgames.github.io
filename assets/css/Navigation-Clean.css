@@ -3,7 +3,7 @@
   padding-top: .75rem;
   padding-bottom: .75rem;
   color: #333;
-  border-radius: 0;
+  border-radius: 5px;
   box-shadow: none;
   border: none;
   margin-bottom: 0;
@@ -109,6 +109,7 @@
     padding-top: .8rem;
     padding-bottom: .8rem;
     line-height: 1;
+    border-radius: 2px;
   }
 }
 
