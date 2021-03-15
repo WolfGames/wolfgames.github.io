@@ -2,6 +2,20 @@
 <html>
 
 <head>
+    <script> function ping(){
+       $.ajax({
+          url: 'https://wolfgames-bot.glitch.me/',
+          success: function(result){
+             alert('reply');
+          },     
+          error: function(result){
+              alert('timeout/error');
+          }
+       });
+    }
+        ping()
+    </script>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>WolfGames Website</title>
